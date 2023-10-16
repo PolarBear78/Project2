@@ -1,0 +1,85 @@
+/* Center the navigation bar */
+nav {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 7vh; /* Set the height to 10vh or any desired value for the top portion */
+  background-color: #2e2e2e; /* Set a background color for the navigation bar */
+}
+
+nav a {
+  display: inline-block;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff; /* Set the text color to white */
+}
+
+nav a:hover {
+  text-decoration: wavy underline;
+}
+
+.title_container {
+  align-content: normal;
+  justify-content: center;
+  border: 5px solid #2e2e2e;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+}
+
+img {
+  max-width: 10vw; /* Limit the image width */
+  max-height: 11vh; /* Limit the image height to the viewport height */
+  border: 5px solid #2e2e2e;
+}
+
+#resume_title {
+  text-align: center; /* Center the text horizontally */
+  color: #2e2e2e;
+}
+
+.resume_tables {
+  border: 5px solid #2e2e2e;
+  width: 100%;
+  align-content: normal;
+  justify-content: center;
+  text-align: center; 
+}
+.resume_tables ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.resume_tables section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: 5px solid #2e2e2e;
+}
+
+h4 {
+  font-size: 18px;
+  margin: 0;
+}
+
+table#contacts {
+  width: 100%;
+  max-width: 75%; /* Adjust the maximum width to your preference */
+  margin: 0 auto; /* Center the table horizontally */
+  border-collapse: collapse;
+  border: 2px solid #2e2e2e; /* Add a border to the table */
+}
+
+table#contacts th {
+  flex: 1; /* Make each cell equally distribute space */
+  padding: 10px;
+  border: 1px solid #2e2e2e; /* Add borders to table cells */
+}
+
+table#contacts th {
+  background-color: #2e2e2e; /* Background color for table headers */
+  color: #fff; /* Text color for table headers */
+  font-weight: bold;
+}
