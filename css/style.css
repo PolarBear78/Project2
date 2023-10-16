@@ -4,8 +4,12 @@ nav {
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   height: 7vh; /* Set the height to 10vh or any desired value for the top portion */
-  background-color: #2e2e2e; /* Set a background color for the navigation bar */
+  background: linear-gradient(90deg, #000000, #000000, #7e7e7e); /* Set a background color for the navigation bar */
 }
+body {
+    color: #2e2e2e;
+}
+
 
 nav a {
   display: inline-block;
@@ -24,12 +28,22 @@ nav a:hover {
   justify-content: center;
   border: 5px solid #2e2e2e;
   display: flex;
+  transition: background-color 0.3s;
+  &:hover {
+    background-color: #2ecc71;
+}
 }
 
-img {
-  max-width: 10vw; /* Limit the image width */
-  max-height: 11vh; /* Limit the image height to the viewport height */
-  border: 5px solid #2e2e2e;
+#page1image {
+  height: 10%;
+  width: 10%;
+  object-fit: contain;
+  float: left;
+  border-radius: 50%;
+  margin: 1%;
+}
+#page2image {
+  max-width: 30vw; /* Limit the image width */
 }
 
 #resume_title {
@@ -56,6 +70,10 @@ img {
   align-items: center;
   width: 100%;
   border: 5px solid #2e2e2e;
+  transition: background-color 0.3s;
+  &:hover {
+    background-color: #2ecc71;
+}
 }
 
 h4 {
@@ -81,4 +99,39 @@ table#contacts th {
   background-color: #2e2e2e; /* Background color for table headers */
   color: #fff; /* Text color for table headers */
   font-weight: bold;
+}
+
+#survey_title{
+  text-align: center; /* Center the text horizontally */
+  color: #2e2e2e;
+}
+
+fieldset legend {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 1px;
+}
+
+/* Style the radio button labels and their associated input elements */
+fieldset label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+/* Style the radio buttons themselves */
+fieldset input[type="radio"] {
+  margin-right: 10px;
+}
+
+/* Apply some custom styles to the selected radio button */
+fieldset input[type="radio"]:checked + label {
+  color: #2e2e2e;
+  font-weight: bold;
+}
+
+/* Add some spacing between the radio buttons */
+fieldset label:not(:last-child) {
+  margin-bottom: 10px;
 }
