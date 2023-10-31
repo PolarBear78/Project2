@@ -19,9 +19,9 @@ nav ul li a {
   text-decoration: none;
   display: block;
   text-align: center;
-  padding: 20px 40px;
+  padding: 1.25rem 2.5rem;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-family: 'courier new', courier;
 }
 
@@ -29,7 +29,7 @@ nav a:hover {
   transition: all 0.5s;
   color: #2ecc71;
   text-decoration: wavy underline;
-  text-underline-offset: 5px;
+  text-underline-offset: 0.3125rem;
   text-decoration-color: #2ecc71;
 }
 
@@ -43,7 +43,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 5px solid;
+  border: 0.3125rem solid;
   transition: background-color 1s;
 }
 
@@ -55,29 +55,29 @@ body {
   color: #ffffff;
   text-decoration-line: overline underline;
   text-decoration-color: #ffffff;
-  text-decoration-thickness: 5px;
-  text-underline-offset: 10px;
+  text-decoration-thickness: 0.3125rem;
+  text-underline-offset: 0.625rem;
 }
 
 #resume_title {
   color: #2e2e2e;
   text-decoration-line: overline underline;
   text-decoration-color: #2ecc71;
-  text-decoration-thickness: 5px;
-  text-underline-offset: 10px;
+  text-decoration-thickness: 0.3125rem;
+  text-underline-offset: 0.625rem;
 }
 
 #page1image {
-  margin-top: 70px;
+  margin-top: 4.375rem;
   height: 5%;
   width: 5%;
   border-radius: 10%;
-  border: 5px solid #2ecc71;
+  border: 0.3125rem solid #2ecc71;
 }
 
 
 .resume_tables {
-  border: 5px solid #2e2e2e;
+  border: 0.3125rem solid #2e2e2e;
   width: 100%;
   align-content: normal;
   justify-content: center;
@@ -97,7 +97,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  border: 5px solid #2e2e2e;
+  border: 0.3125rem solid #2e2e2e;
   transition: background-color 1s;
 }
 
@@ -106,7 +106,7 @@ body {
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 1.125rem;
   margin: 0;
 }
 
@@ -114,13 +114,13 @@ table#contacts {
   width: 100%;
   margin: 0 auto;
   border-collapse: collapse;
-  border: 2px solid #2e2e2e;
+  border: 0.125rem solid #2e2e2e;
 }
 
 table#contacts th {
   flex: 1;
-  padding: 10px;
-  border: 1px solid #2e2e2e;
+  padding: 0.625rem;
+  border: 0.0625rem solid #2e2e2e;
 }
 
 table#contacts th {
@@ -148,7 +148,7 @@ table#contacts th:hover {
 }
 
 .rainbow_text {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: bold;
   background-image: linear-gradient(90deg, #FF0000, #FF7F00, #FFFF00, #00FF00, #0000FF, #4B0082, #8B00FF);
   background-size: 1400% 100%;
@@ -160,7 +160,7 @@ table#contacts th:hover {
 
 #survey_title {
   width: 100%;
-  height: 200px;
+  height: 12.5rem;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -171,18 +171,18 @@ table#contacts th:hover {
 
 form {
   background-color: #fff;
-  border: 1px solid #ccc;
+  border: 0.0625rem solid #ccc;
   border-radius: 10px;
   max-width: 50%;
   margin: auto auto;
-  padding: 20px;
+  padding: 1.25rem;
   box-shadow: 0 0 200px rgba(0, 0, 0, 0.1);
 }
 
 fieldset {
-  margin: 20px 0;
-  padding: 20px;
-  border: 3px solid #2ecc71;
+  margin: 1.25rem 0;
+  padding: 1.25rem;
+  border: 0.1875rem solid #2ecc71;
   border-radius: 10px;
 }
 
@@ -190,30 +190,30 @@ fieldset {
 
 input[type="radio"],
 input[type="checkbox"] {
-  margin-right: 10px;
+  margin-right: 0.625rem;
   vertical-align: middle;
 }
 
 select {
-  font-size: 20px;
-  padding: 5px;
+  font-size: 1.25rem;
+  padding: 0.3125rem;
 }
 
 textarea {
 
   width: 97%;
   max-width: 97%;
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
+  padding: 0.625rem;
+  font-size: 1rem;
+  border: 0.0625rem solid #ccc;
   border-radius: 10px;
 }
 
 input[type="submit"] {
   background-color: #2ecc71;
   color: white;
-  font-size: 18px;
-  padding: 10px 20px;
+  font-size: 1.125rem;
+  padding: 0.625rem 1.25rem;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
@@ -227,8 +227,8 @@ video {
   width: 100%;
   max-width: 800px;
   display: block;
-  margin: 20px auto;
-  border: 5px solid #2ecc71;
+  margin: 1.25rem auto;
+  border: 0.3125rem solid #2ecc71;
   border-radius: 10px;
 }
 
